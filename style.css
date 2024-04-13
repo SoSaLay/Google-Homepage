@@ -1,0 +1,119 @@
+body, html {
+  font-family: Arial, sans-serif;
+  font-size: small;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+
+}
+
+.content-wrap {
+  flex: 1;
+}
+
+header nav{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  padding-right: 20px;
+
+
+}
+
+@media(max-width: 768px){}
+header nav a{
+  margin-right: 10px;
+  margin-top: 15px;
+  padding-left: 15px;
+  text-decoration: none;
+  color: black
+
+}
+
+header nav a:nth-child(2){ 
+  margin-right:65vw;
+  margin-right: auto;
+
+}
+
+
+footer nav{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  padding-right: 20px;
+}
+
+footer nav a{
+  margin-left: 15px;
+  margin-right: 5px;
+  padding-left: 15px;
+  text-decoration: none;
+  color: black
+}
+
+footer nav a:nth-child(3){
+  margin-right: 30vw;
+  margin-right: auto;
+
+}
+
+footer{
+  background-color: #f2f2f2;
+  padding: 20px 0;
+  margin-top: 100px;
+}
+
+
+#logo-area{
+  text-align: center;
+  margin-top: 200px;
+ margin-bottom: 5px;
+ max-width: 100%;
+ height: auto;
+ width: auto;
+
+}
+
+#googleLogo{
+width: 30vw;
+height:auto;
+
+}
+
+#search-area {
+  text-align: center;
+  margin-top: 30px
+}
+
+#searchBox {
+  width: 50%;
+  height: 25px;
+  padding: 10px;
+  font-size: 16px;
+  margin-top: 1px;
+  margin-bottom: 20px;
+  border: 1px solid lightgrey;
+  border-radius: 20px;
+
+
+
+
+}
+
+#button-area button {
+  padding: 10px 20px;
+  margin-right: 10px; /* Adds spacing between buttons */
+  font-size: 14px;
+  color: black;
+  border: lightgrey;
+  font-size: small;
+}
+
+#searchButton:hover, #luckyButton:hover{
+background-color: lightgray;
+
+}
+
